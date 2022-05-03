@@ -1,0 +1,59 @@
+Index: Data strectur/simple list program.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Data strectur/simple list program.py b/Data strectur/simple list program.py
+new file mode 100644
+--- /dev/null	
++++ b/Data strectur/simple list program.py	
+@@ -0,0 +1,2 @@
++list=[1,2,3,4,5]
++print(list)
+Index: Data strectur/list on insert method.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Data strectur/list on insert method.py b/Data strectur/list on insert method.py
+new file mode 100644
+--- /dev/null	
++++ b/Data strectur/list on insert method.py	
+@@ -0,0 +1,4 @@
++list[1,2,3,4,5]
++print(list)
++list.insert(1,'kumar')
++print(list)
+\ No newline at end of file
+Index: Data strectur/list on extend method.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Data strectur/list on extend method.py b/Data strectur/list on extend method.py
+new file mode 100644
+--- /dev/null	
++++ b/Data strectur/list on extend method.py	
+@@ -0,0 +1,7 @@
++list=[1,2,3,4,5]
++print(list)
++list.append([10,20,'hii'])
++print(list)
++list.extend([10,'prabin'])
++print(list)
++
+Index: Data strectur/list on append method.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Data strectur/list on append method.py b/Data strectur/list on append method.py
+new file mode 100644
+--- /dev/null	
++++ b/Data strectur/list on append method.py	
+@@ -0,0 +1,4 @@
++list=[10,20,30]
++print(list)
++list.append([40,50,60])
++print(list)
+\ No newline at end of file
